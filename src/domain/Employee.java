@@ -1,3 +1,5 @@
+package domain;
+
 /**
  * Клас Employee представляє працівника організації.
  */
@@ -10,7 +12,7 @@ public class Employee {
      */
     @Override
     public String toString() {
-        return "\nІдентифікатор працівника= " + ID + "\nІм'я= " + name + "\nПосада= " + jobTitle + "\nРівень= " + level + "\nВідділ= " + dept;
+        return "\n Ідентифікатор працівника= " + ID + "\n Ім'я= " + name + "\n Посада= " + jobTitle + "\n Рівень= " + level + "\n Відділ= " + dept;
     }
 
     private String name;

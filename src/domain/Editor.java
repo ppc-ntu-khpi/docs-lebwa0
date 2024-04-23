@@ -1,3 +1,5 @@
+package domain;
+
 /**
  * Клас Editor представляє редактора, який є типом митець. Розширює клас Artist
  * та додає функціонал для управління налаштуваннями редагування.
@@ -57,7 +59,7 @@ public class Editor extends Artist {
      */
     @Override
     public String toString() {
-        String s = super.toString()+"\nНалаштування редагування: ";
+        String s = super.toString()+"\n Налаштування редагування: ";
         if (electronicEditing)
             s += "електронне";
         else
